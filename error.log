@@ -1,0 +1,22 @@
+[19-Feb-2025 08:23:20 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\ticketexchange\insert_bookings.php on line 83
+[19-Feb-2025 08:31:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\ticketexchange\insert_bookings.php on line 83
+[19-Feb-2025 18:55:47 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ticketexchange\insert_bookings.php:187
+Stack trace:
+#0 C:\xampp\htdocs\ticketexchange\insert_bookings.php(187): mysqli_stmt->bind_param('iissdsssssssssd', 3, '1989', 'ABCD TRAVELS', '2025-03-25', '1150', 'kalyanm1198.sse...', 'Benz Circle', '10:00', 'koyambedu', '17:15', NULL, NULL, '6', '1150')
+#1 {main}
+  thrown in C:\xampp\htdocs\ticketexchange\insert_bookings.php on line 187
+[19-Feb-2025 19:00:51 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ticketexchange\insert_bookings.php:187
+Stack trace:
+#0 C:\xampp\htdocs\ticketexchange\insert_bookings.php(187): mysqli_stmt->bind_param('iissdsssssssssd', 3, '1989', 'ABCD TRAVELS', '2025-03-25', '1150', 'kalyanm1198.sse...', 'Benz Circle', '10:00', 'koyambedu', '17:15', NULL, NULL, '6', '1150')
+#1 {main}
+  thrown in C:\xampp\htdocs\ticketexchange\insert_bookings.php on line 187
+[19-Feb-2025 19:02:58 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ticketexchange\insert_bookings.php:187
+Stack trace:
+#0 C:\xampp\htdocs\ticketexchange\insert_bookings.php(187): mysqli_stmt->bind_param('iissdsssssssssd', 3, '1989', 'ABCD TRAVELS', '2025-03-25', '1150', 'kalyanm1198.sse...', 'Benz Circle', '10:00', 'koyambedu', '17:15', 'vijayawada', 'chennai', '6', '1150')
+#1 {main}
+  thrown in C:\xampp\htdocs\ticketexchange\insert_bookings.php on line 187
+[19-Feb-2025 19:04:51 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\ticketexchange\insert_bookings.php:187
+Stack trace:
+#0 C:\xampp\htdocs\ticketexchange\insert_bookings.php(187): mysqli_stmt->bind_param('iissdsssssssssd', 3, '1989', 'ABCD TRAVELS', '2025-03-25', '1150', 'kalyanm1198.sse...', 'Benz Circle', '10:00', 'madhavaram', '17:00', 'vijayawada', 'chennai', '8', '1150')
+#1 {main}
+  thrown in C:\xampp\htdocs\ticketexchange\insert_bookings.php on line 187
